@@ -12,3 +12,5 @@ market_list = ["apple", "tomato", "pepper", "carrot", "mango"]
 items  = json.dumps(market_list)
 
 print(items)
+
+# i am adding a comment
