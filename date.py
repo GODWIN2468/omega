@@ -13,8 +13,8 @@ print("current date is", x.strftime("%Y-%m-%d"))
 #time
 from datetime import datetime
 now= datetime.now()
-time = now.strftime("%H: %M: %S")
-print("current time is", time)
+times = now.strftime("%H: %M: %S")
+print("current time is", times)
 
 
 
