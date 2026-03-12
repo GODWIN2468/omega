@@ -1,4 +1,4 @@
-
+  
 #"""A simple CLI tool that prints the current date and time."""
 import datetime
 from datetime import datetime

@@ -34,7 +34,7 @@ view_task()
 def delete_task():
     view_task()
     try:
-        task_num = int(input("Enter a task number to delete:"))print
+        task_num = int(input("Enter a task number to delete:"))
         del tasks[task_num - 1]
         print("task deleted!")
     except (ValueError, IndexError):
